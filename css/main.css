@@ -1,0 +1,54 @@
+body {
+	background-image: url(../img/jimmies.png);
+}
+
+.title {
+	color: blue;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	text-align: center;
+}
+
+.title h1 {
+	font-size: 100px;
+}
+
+
+.about {
+	background-color:white;
+	text-align: center;
+	width: 500px;
+	padding: 10px;
+	margin: 25px;
+	border: 5px solid black;
+	/*margin: 50px; */
+}
+
+.flashing {
+	animation: blinkingText 1s infinite;
+	font-family: futura;
+	font-style: italic;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;	
+	color: white;
+	font-size: 45px;
+	background-color: #fc030b;
+}
+@keyframes blinkingText {
+	0% {
+		opacity: 0.2;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.footer {
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	height: 30px;
+	padding: 10px;
+	background-color: lightblue;
+}
